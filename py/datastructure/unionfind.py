@@ -24,7 +24,7 @@ class UnionFind:
         else:
             self.follow[rb] = ra
             self.follow[b] = ra
-            self.num_follower[rb] += self.num_follower[ra]
+            self.num_follower[ra] += self.num_follower[rb]
     
     def conneted(self, a, b):
         return self.root_index_of(a) == self.root_index_of(b)
