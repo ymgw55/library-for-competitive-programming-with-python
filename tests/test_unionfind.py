@@ -14,7 +14,7 @@ class TestUnionFind(unittest.TestCase):
         """
         test method for UnionFind
 
-        at first, N is given, and make a disjoint set whose elements are 0, 1,..., N-1, 
+        at first, N is given and make a disjoint set whose elements are 0, 1,..., N-1, 
         and then Q and Query are given.
         Q is the size of Query and Query consits of (p1, x1, y1), (p2, x2, y2)...(pQ, xQ, yQ).
         p is the marker of the type of query and x, y are elements.
@@ -26,7 +26,7 @@ class TestUnionFind(unittest.TestCase):
 
 
         "expected" is the expected answer list, 
-        and "output" is the output list whose elements are added when p = 1.
+        and "output" is the output list which recodes boolean when p = 1.
 
         """
 
